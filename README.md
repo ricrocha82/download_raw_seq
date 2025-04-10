@@ -6,6 +6,10 @@ Frist create the environment using:
 mamba env create -f env_config.yaml
 ```
 
+```bash
+conda activate sra_tools
+```
+
 # Option 1
 Using BioProject accession number
 
