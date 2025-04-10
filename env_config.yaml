@@ -1,0 +1,11 @@
+name: sra_tools
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python >=3.9
+  - entrez-direct
+  - sra-tools
+  - parallel
+  - ncbi-genome-download
