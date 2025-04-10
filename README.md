@@ -21,11 +21,11 @@ python download_raw_reads.py -p PRJNA797778 -o output/directory -s <name of the 
 If you provide a csv file, the code will automatically download the fasta files
 
 The csv file should have two columns (study name, and accession number)
-| study    | accession |
-| -------- | ------- |
-| XX_2020  | PRJNA1234    |
-| YY_2020 | PRJNA1234     |
-| ZZ_2020    | PRJNA1234    |
+| accession |
+| ------- |
+| PRJNA1234 |
+| PRJNA1234 |
+| PRJNA1234 |
 ```bash
 python download_raw_reads.py --csv dir/to/csv/file.csv -o output/directory
 ```
