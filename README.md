@@ -38,11 +38,11 @@ python download_raw_reads.py --csv dir/to/csv/file.csv -o output/directory
 Using SRA accession numbers
 
 input is a `.csv` file with two columns (study name, and accession number)
-| study    | accession |
-| -------- | ------- |
-| XX_2020  | SRA1234    |
-| XX_2020 | SRA5678     |
-| XX_2020    | SRA8907    |
+| accession |
+| -------- |
+| SRA1234    |
+| SRA5678     |
+| SRA8907    |
 ```bash
 python download_runs_file.py --runs dir/to/csv/runs_file.csv -o output/directory -s XX_2020
 ```
