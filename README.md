@@ -24,7 +24,7 @@ python download_raw_reads.py -p <BioProject accession number> -o output/director
 
 If you provide a `.csv` file, the code will automatically download the fasta files
 
-The csv file should have two columns (study name, and accession number)
+The csv file should have two columns (study name, and accession number) without the headers
 | study | accession |
 | ------- |------- |
 | XX_2020 | PRJNA1234 |
@@ -37,7 +37,7 @@ python download_raw_reads.py --csv dir/to/csv/file.csv -o output/directory
 # Option 2
 Using SRA accession numbers
 
-input is a `.csv` file with two columns (study name, and accession number)
+input is a `.csv` file with two columns (study name, and accession number) without the headers
 | accession |
 | -------- |
 | SRA1234    |
